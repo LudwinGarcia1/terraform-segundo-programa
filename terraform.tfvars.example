@@ -1,0 +1,7 @@
+# Plantilla de valores de variables para el laboratorio
+# Copiar este archivo como 'terraform.tfvars' e indicar el ID de suscripción real.
+subscription_id    = "00000000-0000-0000-0000-000000000000"
+project_name       = "utvt-net"
+environment        = "dev"
+location           = "eastus"
+vnet_address_space = ["10.0.0.0/16"]
